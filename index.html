@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mantaprabha - Office Branding Agency</title>
+  <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.cdnfonts.com/css/apercu-pro" rel="stylesheet" />
+  <style>
+    body, button, input, textarea, select {
+      font-family: 'Apercu Pro', 'Montserrat', 'Playfair Display', Arial, sans-serif !important;
+    }
+    a.text-2xl.font-\[\'Pacifico\'\] {
+      font-family: 'Pacifico', cursive !important;
+    }
+  </style>
+</head>
+
+<body class="bg-white">
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="preloader-content">
+      <h1 class="text-4xl font-['Pacifico'] text-primary mb-4">
+        mantaprabha
+      </h1>
+      <div class="loading-dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- Navigation -->
+  <nav id="navbar" class="fixed nav-scrolled top-0 left-0 w-full py-4 z-50 transition-all duration-300">
+    <div class="container mx-auto px-6 flex items-center justify-between">
+      <a href="#" class="text-2xl font-['Pacifico'] text-gray-900 flex items-center">
+        <img src="images/logo-bg.png" alt="Mantaprabha Logo" class="h-14 w-auto mr-2" />
+      </a>
+      <div class="hidden lg:flex items-center space-x-8">
+        <a href="#" class="text-[#343794] hover:text-primary font-semibold transition-colors">Home</a>
+        <a href="#services" class="text-[#343794] hover:text-primary font-semibold transition-colors">Services</a>
+        <a href="#portfolio" class="text-[#343794] hover:text-primary font-semibold transition-colors">Portfolio</a>
+        <a href="#process" class="text-[#343794] hover:text-primary font-semibold transition-colors">Process</a>
+        <a href="#about" class="text-[#343794] hover:text-primary font-semibold transition-colors">About</a>
+        <a href="#contact" class="text-[#343794] hover:text-primary font-semibold transition-colors">Contact Us</a>
+      </div>
+      <button class="lg:hidden w-10 h-10 flex items-center justify-center text-gray-900">
+        <i class="ri-menu-line ri-lg"></i>
+      </button>
+    </div>
+  </nav>
+  <!-- Hero Section -->
+  <section class="hero-section min-h-screen flex items-center pt-20 overflow-hidden">
+    <div class="container mx-auto px-6 w-full relative">
+      <div class="max-w-3xl hero-content opacity-0">
+        <h1 class="font-['Apercu_Pro'] text-5xl md:text-6xl font-bold heading-font text-gray-900 mb-8 ">
+          Crafting Distinctive <br /> Office Identities
+        </h1>
+        <p class="font-['Apercu_Pro'] text-xl text-gray-700 mb-8">
+          We transform workspaces into powerful brand statements that inspire
+          employees and impress clients.
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <a href="#portfolio"
+            class="hero-btn bg-white border border-gray-300 text-gray-900 px-8 py-3 !rounded-button font-medium hover:bg-gray-50 transition-colors whitespace-nowrap">
+            Explore Our Work</a>
+          <a href="#contact"
+            class="hero-btn bg-white border border-gray-300 text-gray-900 px-8 py-3 !rounded-button font-medium hover:bg-gray-50 transition-colors whitespace-nowrap">
+            Get in Touch</a>
+        </div>
+      </div>
+      <div class="absolute top-0 right-0 w-1/2 h-full hero-image opacity-0">
+        <div class="w-full h-full bg-gradient-to-l from-white/20 to-white/80 absolute top-0 left-0 z-10"></div>
+      </div>
+    </div>
+  </section>
+  <!-- Featured Projects Preview -->
+  <section class="py-20 bg-gray-50 ">
+    <div class="container mx-auto px-6">
+      <div class="flex justify-between items-end mb-12">
+        <div>
+          <h2 class="text-3xl font-bold heading-font text-gray-900 mb-2">
+            Featured Projects
+          </h2>
+          <p class="text-gray-600">
+            Our latest transformative office branding solutions
+          </p>
+        </div>
+        <a href="#portfolio" class="text-primary font-medium flex items-center">
+          View all projects
+          <i class="ri-arrow-right-line ml-2"></i>
+        </a>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div
+          class="portfolio-item bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer group"
+          data-portfolio="nexus">
+          <div class="h-64 overflow-hidden">
+            <img
+              src="https://readdy.ai/api/search-image?query=modern%20tech%20company%20office%20with%20sleek%20branding%20elements%2C%20minimalist%20design%20with%20blue%20accent%20colors%2C%20open%20workspace%20with%20branded%20wall%20graphics%2C%20professional%20corporate%20environment%2C%20high-quality%20interior%20photography&width=600&height=400&seq=port1&orientation=landscape"
+              alt="Nexus Technologies Office"
+              class="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-110" />
+          </div>
+          <div class="p-6">
+            <div class="flex justify-between items-start mb-3">
+              <h3 class="text-xl font-bold text-gray-900">
+                Nexus Technologies
+              </h3>
+              <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Tech</span>
+            </div>
+            <p class="text-gray-600 mb-4">
+              Complete office rebrand with environmental graphics and digital
+              displays
+            </p>
+            <a href="#" class="text-primary font-medium flex items-center text-sm">
+              View Project
+              <i class="ri-arrow-right-line ml-1"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio-item bg-white rounded-lg overflow-hidden shadow-sm cursor-pointer"
+          data-portfolio="verdant">
+          <div class="h-64 overflow-hidden">
+            <img
+              src="https://readdy.ai/api/search-image?query=eco-friendly%20office%20space%20with%20natural%20elements%2C%20sustainable%20design%20with%20green%20branding%2C%20wooden%20accents%20and%20plant%20walls%2C%20biophilic%20office%20design%20with%20branded%20elements%2C%20professional%20interior%20photography&width=600&height=400&seq=port2&orientation=landscape"
+              alt="Verdant Spaces Office" class="w-full h-full object-cover object-top" />
+          </div>
+          <div class="p-6">
+            <div class="flex justify-between items-start mb-3">
+              <h3 class="text-xl font-bold text-gray-900">Verdant Spaces</h3>
+              <span class="bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Eco</span>
+            </div>
+            <p class="text-gray-600 mb-4">
+              Sustainable office branding with biophilic design elements
+            </p>
+            <a href="#" class="text-primary font-medium flex items-center text-sm">
+              View Project
+              <i class="ri-arrow-right-line ml-1"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio-item bg-white rounded-lg overflow-hidden shadow-sm cursor-pointer"
+          data-portfolio="meridian">
+          <div class="h-64 overflow-hidden">
+            <img
+              src="https://readdy.ai/api/search-image?query=luxury%20financial%20firm%20office%20with%20elegant%20branding%2C%20sophisticated%20corporate%20environment%20with%20marble%20and%20gold%20accents%2C%20premium%20office%20space%20with%20subtle%20branded%20elements%2C%20high-end%20financial%20institution%20interior%2C%20professional%20photography&width=600&height=400&seq=port3&orientation=landscape"
+              alt="Meridian Financial Office" class="w-full h-full object-cover object-top" />
+          </div>
+          <div class="p-6">
+            <div class="flex justify-between items-start mb-3">
+              <h3 class="text-xl font-bold text-gray-900">
+                Meridian Financial
+              </h3>
+              <span class="bg-yellow-100 text-yellow-800 text-xs px-2 py-1 rounded">Finance</span>
+            </div>
+            <p class="text-gray-600 mb-4">
+              Elegant corporate identity and signage for financial
+              headquarters
+            </p>
+            <a href="#" class="text-primary font-medium flex items-center text-sm">
+              View Project
+              <i class="ri-arrow-right-line ml-1"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="py-20">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold heading-font text-gray-900 mb-2">
+          Our Portfolio
+        </h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">
+          Explore our diverse collection of office branding projects across
+          various industries
+        </p>
+      </div>
+      <div class="flex flex-wrap justify-center gap-4 mb-12">
+        <button
+          class="portfolio-filter active bg-primary text-white px-4 py-2 !rounded-button font-medium whitespace-nowrap">
+          All Projects
+        </button>
+        <button
+          class="portfolio-filter bg-white border border-gray-300 text-gray-700 px-4 py-2 !rounded-button font-medium hover:bg-gray-50 transition-colors whitespace-nowrap">
+          Office Interior
+        </button>
+        <button
+          class="portfolio-filter bg-white border border-gray-300 text-gray-700 px-4 py-2 !rounded-button font-medium hover:bg-gray-50 transition-colors whitespace-nowrap">
+          Corporate Identity
+        </button>
+        <button
+          class="portfolio-filter bg-white border border-gray-300 text-gray-700 px-4 py-2 !rounded-button font-medium hover:bg-gray-50 transition-colors whitespace-nowrap">
+          Workplace Signage
+        </button>
+        <button
+          class="portfolio-filter bg-white border border-gray-300 text-gray-700 px-4 py-2 !rounded-button font-medium hover:bg-gray-50 transition-colors whitespace-nowrap">
+          Environmental Graphics
+        </button>
+        <button
+          class="portfolio-filter bg-white border border-gray-300 text-gray-700 px-4 py-2 !rounded-button font-medium hover:bg-gray-50 transition-colors whitespace-nowrap">
+          Digital Displays
+        </button>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="portfolio-item bg-white rounded-lg overflow-hidden shadow-sm cursor-pointer" data-portfolio="atlas">
+          <div class="h-64 overflow-hidden">
+            <img
+              src="https://readdy.ai/api/search-image?query=creative%20agency%20office%20with%20vibrant%20branding%20elements%2C%20colorful%20workspace%20with%20branded%20wall%20murals%2C%20modern%20design%20studio%20with%20artistic%20elements%2C%20professional%20interior%20photography%20with%20bright%20colors&width=600&height=400&seq=port4&orientation=landscape"
+              alt="Atlas Creative Office" class="w-full h-full object-cover object-top" />
+          </div>
+          <div class="p-6">
+            <div class="flex justify-between items-start mb-3">
+              <h3 class="text-xl font-bold text-gray-900">Atlas Creative</h3>
+              <span class="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">Design</span>
+            </div>
+            <p class="text-gray-600 mb-4">
+              Vibrant environmental graphics for creative agency
+            </p>
+            <a href="#" class="text-primary font-medium flex items-center text-sm">
+              View Project
+              <i class="ri-arrow-right-line ml-1"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio-item bg-white rounded-lg overflow-hidden shadow-sm cursor-pointer"
+          data-portfolio="horizon">
+          <div class="h-64 overflow-hidden">
+            <img
+              src="https://readdy.ai/api/search-image?query=healthcare%20office%20with%20calming%20branding%20elements%2C%20medical%20facility%20with%20professional%20signage%2C%20clean%20modern%20medical%20office%20with%20subtle%20branded%20elements%2C%20soothing%20healthcare%20environment%2C%20professional%20interior%20photography&width=600&height=400&seq=port5&orientation=landscape"
+              alt="Horizon Healthcare Office" class="w-full h-full object-cover object-top" />
+          </div>
+          <div class="p-6">
+            <div class="flex justify-between items-start mb-3">
+              <h3 class="text-xl font-bold text-gray-900">
+                Horizon Healthcare
+              </h3>
+              <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Healthcare</span>
+            </div>
+            <p class="text-gray-600 mb-4">
+              Comprehensive signage system for medical facility
+            </p>
+            <a href="#" class="text-primary font-medium flex items-center text-sm">
+              View Project
+              <i class="ri-arrow-right-line ml-1"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio-item bg-white rounded-lg overflow-hidden shadow-sm cursor-pointer" data-portfolio="pulse">
+          <div class="h-64 overflow-hidden">
+            <img
+              src="https://readdy.ai/api/search-image?query=fitness%20company%20headquarters%20with%20energetic%20branding%2C%20dynamic%20office%20space%20with%20motivational%20graphics%2C%20modern%20gym%20brand%20office%20with%20bold%20elements%2C%20sports%20company%20workspace%2C%20professional%20interior%20photography&width=600&height=400&seq=port6&orientation=landscape"
+              alt="Pulse Fitness Office" class="w-full h-full object-cover object-top" />
+          </div>
+          <div class="p-6">
+            <div class="flex justify-between items-start mb-3">
+              <h3 class="text-xl font-bold text-gray-900">Pulse Fitness</h3>
+              <span class="bg-red-100 text-red-800 text-xs px-2 py-1 rounded">Fitness</span>
+            </div>
+            <p class="text-gray-600 mb-4">
+              Dynamic corporate identity for fitness brand headquarters
+            </p>
+            <a href="#" class="text-primary font-medium flex items-center text-sm">
+              View Project
+              <i class="ri-arrow-right-line ml-1"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio-item bg-white rounded-lg overflow-hidden shadow-sm cursor-pointer"
+          data-portfolio="quantum">
+          <div class="h-64 overflow-hidden">
+            <img
+              src="https://readdy.ai/api/search-image?query=tech%20startup%20office%20with%20futuristic%20branding%20elements%2C%20innovative%20workspace%20with%20digital%20displays%2C%20modern%20technology%20company%20with%20sleek%20branded%20environment%2C%20professional%20interior%20photography%20with%20blue%20lighting%20accents&width=600&height=400&seq=port7&orientation=landscape"
+              alt="Quantum Labs Office" class="w-full h-full object-cover object-top" />
+          </div>
+          <div class="p-6">
+            <div class="flex justify-between items-start mb-3">
+              <h3 class="text-xl font-bold text-gray-900">Quantum Labs</h3>
+              <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Tech</span>
+            </div>
+            <p class="text-gray-600 mb-4">
+              Interactive digital displays for tech innovation hub
+            </p>
+            <a href="#" class="text-primary font-medium flex items-center text-sm">
+              View Project
+              <i class="ri-arrow-right-line ml-1"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio-item bg-white rounded-lg overflow-hidden shadow-sm cursor-pointer"
+          data-portfolio="evergreen">
+          <div class="h-64 overflow-hidden">
+            <img
+              src="https://readdy.ai/api/search-image?query=sustainable%20eco-friendly%20office%20with%20natural%20branding%20elements%2C%20environmental%20company%20workspace%20with%20wooden%20features%2C%20green%20office%20with%20plant%20walls%20and%20sustainable%20materials%2C%20professional%20interior%20photography&width=600&height=400&seq=port8&orientation=landscape"
+              alt="Evergreen Solutions Office" class="w-full h-full object-cover object-top" />
+          </div>
+          <div class="p-6">
+            <div class="flex justify-between items-start mb-3">
+              <h3 class="text-xl font-bold text-gray-900">
+                Evergreen Solutions
+              </h3>
+              <span class="bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Environmental</span>
+            </div>
+            <p class="text-gray-600 mb-4">
+              Eco-friendly office interior branding with natural materials
+            </p>
+            <a href="#" class="text-primary font-medium flex items-center text-sm">
+              View Project
+              <i class="ri-arrow-right-line ml-1"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio-item bg-white rounded-lg overflow-hidden shadow-sm cursor-pointer" data-portfolio="azure">
+          <div class="h-64 overflow-hidden">
+            <img
+              src="https://readdy.ai/api/search-image?query=luxury%20hotel%20corporate%20office%20with%20elegant%20branding%2C%20hospitality%20company%20headquarters%20with%20sophisticated%20design%2C%20premium%20workspace%20with%20subtle%20branded%20elements%2C%20professional%20interior%20photography%20with%20warm%20lighting&width=600&height=400&seq=port9&orientation=landscape"
+              alt="Azure Hospitality Office" class="w-full h-full object-cover object-top" />
+          </div>
+          <div class="p-6">
+            <div class="flex justify-between items-start mb-3">
+              <h3 class="text-xl font-bold text-gray-900">
+                Azure Hospitality
+              </h3>
+              <span class="bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded">Hospitality</span>
+            </div>
+            <p class="text-gray-600 mb-4">
+              Elegant corporate identity for luxury hotel chain headquarters
+            </p>
+            <a href="#" class="text-primary font-medium flex items-center text-sm">
+              View Project
+              <i class="ri-arrow-right-line ml-1"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-12">
+        <button
+          class="bg-white border border-gray-300 text-gray-900 px-8 py-3 !rounded-button font-medium hover:bg-gray-50 transition-colors whitespace-nowrap">
+          Load More Projects
+        </button>
+      </div>
+    </div>
+  </section>
+  <!-- Services Section -->
+  <section id="services" class="py-20 bg-gray-50 overflow-hidden">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-12 services-header opacity-0">
+        <h2 class="text-3xl font-bold heading-font text-gray-900 mb-2">
+          Our Services
+        </h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">
+          Comprehensive office branding solutions tailored to your unique
+          identity
+        </p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 services-grid">
+        <div class="service-card bg-white p-8 rounded-lg shadow-sm">
+          <div class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+            <i class="ri-building-line ri-xl text-primary"></i>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">
+            Office Interior Branding
+          </h3>
+          <p class="text-gray-600 mb-4">
+            Transform your workspace with cohesive branding elements that
+            reflect your company's values and culture.
+          </p>
+          <ul class="text-gray-600 space-y-2 mb-6">
+            <li class="flex items-start">
+              <i class="ri-check-line text-primary mt-1 mr-2"></i>
+              <span>Wall graphics and murals</span>
+            </li>
+            <li class="flex items-start">
+              <i class="ri-check-line text-primary mt-1 mr-2"></i>
+              <span>Reception area design</span>
+            </li>
+            <li class="flex items-start">
+              <i class="ri-check-line text-primary mt-1 mr-2"></i>
+              <span>Branded interior elements</span>
+            </li>
+          </ul>
+          <a href="#" class="text-primary font-medium flex items-center">
+            Learn More
+            <i class="ri-arrow-right-line ml-2"></i>
+          </a>
+        </div>
+        <div class="service-card bg-white p-8 rounded-lg shadow-sm">
+          <div class="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-6">
+            <i class="ri-layout-4-line ri-xl text-green-600"></i>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">
+            Corporate Identity
+          </h3>
+          <p class="text-gray-600 mb-4">
+            Develop a consistent visual language that strengthens your brand
+            presence across all touchpoints.
+          </p>
+          <ul class="text-gray-600 space-y-2 mb-6">
+            <li class="flex items-start">
+              <i class="ri-check-line text-primary mt-1 mr-2"></i>
+              <span>Logo and identity systems</span>
+            </li>
+            <li class="flex items-start">
+              <i class="ri-check-line text-primary mt-1 mr-2"></i>
+              <span>Brand guidelines</span>
+            </li>
+            <li class="flex items-start">
+              <i class="ri-check-line text-primary mt-1 mr-2"></i>
+              <span>Stationery and collateral</span>
+            </li>
+          </ul>
+          <a href="#" class="text-primary font-medium flex items-center">
+            Learn More
+            <i class="ri-arrow-right-line ml-2"></i>
+          </a>
+        </div>
+        <div class="service-card bg-white p-8 rounded-lg shadow-sm">
+          <div class="w-16 h-16 bg-yellow-100 rounded-lg flex items-center justify-center mb-6">
+            <i class="ri-guide-line ri-xl text-yellow-600"></i>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">
+            Workplace Signage
+          </h3>
+          <p class="text-gray-600 mb-4">
+            Create intuitive navigation and informational systems that enhance
+            the workplace experience.
+          </p>
+          <ul class="text-gray-600 space-y-2 mb-6">
+            <li class="flex items-start">
+              <i class="ri-check-line text-primary mt-1 mr-2"></i>
+              <span>Wayfinding systems</span>
+            </li>
+            <li class="flex items-start">
+              <i class="ri-check-line text-primary mt-1 mr-2"></i>
+              <span>Room identification</span>
+            </li>
+            <li class="flex items-start">
+              <i class="ri-check-line text-primary mt-1 mr-2"></i>
+              <span>Safety and compliance signage</span>
+            </li>
+          </ul>
+          <a href="#" class="text-primary font-medium flex items-center">
+            Learn More
+            <i class="ri-arrow-right-line ml-2"></i>
+          </a>
+        </div>
+        <div class="service-card bg-white p-8 rounded-lg shadow-sm">
+          <div class="w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
+            <i class="ri-paint-brush-line ri-xl text-purple-600"></i>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">
+            Environmental Graphics
+          </h3>
+          <p class="text-gray-600 mb-4">
+            Integrate compelling visual elements that communicate your brand
+            story throughout your space.
+          </p>
+          <ul class="text-gray-600 space-y-2 mb-6">
+            <li class="flex items-start">
+              <i class="ri-check-line text-primary mt-1 mr-2"></i>
+              <span>Dimensional lettering and logos</span>
+            </li>
+            <li class="flex items-start">
+              <i class="ri-check-line text-primary mt-1 mr-2"></i>
+              <span>Feature walls and installations</span>
+            </li>
+            <li class="flex items-start">
+              <i class="ri-check-line text-primary mt-1 mr-2"></i>
+              <span>Window graphics and privacy films</span>
+            </li>
+          </ul>
+          <a href="#" class="text-primary font-medium flex items-center">
+            Learn More
+            <i class="ri-arrow-right-line ml-2"></i>
+          </a>
+        </div>
+        <div class="service-card bg-white p-8 rounded-lg shadow-sm">
+          <div class="w-16 h-16 bg-red-100 rounded-lg flex items-center justify-center mb-6">
+            <i class="ri-computer-line ri-xl text-red-600"></i>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">
+            Digital Displays
+          </h3>
+          <p class="text-gray-600 mb-4">
+            Implement dynamic digital content that engages employees and
+            visitors with your brand message.
+          </p>
+          <ul class="text-gray-600 space-y-2 mb-6">
+            <li class="flex items-start">
+              <i class="ri-check-line text-primary mt-1 mr-2"></i>
+              <span>Interactive touchscreens</span>
+            </li>
+            <li class="flex items-start">
+              <i class="ri-check-line text-primary mt-1 mr-2"></i>
+              <span>Digital signage content</span>
+            </li>
+            <li class="flex items-start">
+              <i class="ri-check-line text-primary mt-1 mr-2"></i>
+              <span>Video wall installations</span>
+            </li>
+          </ul>
+          <a href="#" class="text-primary font-medium flex items-center">
+            Learn More
+            <i class="ri-arrow-right-line ml-2"></i>
+          </a>
+        </div>
+        <div class="service-card bg-white p-8 rounded-lg shadow-sm">
+          <div class="w-16 h-16 bg-indigo-100 rounded-lg flex items-center justify-center mb-6">
+            <i class="ri-team-line ri-xl text-indigo-600"></i>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">
+            Workplace Culture
+          </h3>
+          <p class="text-gray-600 mb-4">
+            Design elements that reinforce your company values and foster a
+            positive workplace culture.
+          </p>
+          <ul class="text-gray-600 space-y-2 mb-6">
+            <li class="flex items-start">
+              <i class="ri-check-line text-primary mt-1 mr-2"></i>
+              <span>Values visualization</span>
+            </li>
+            <li class="flex items-start">
+              <i class="ri-check-line text-primary mt-1 mr-2"></i>
+              <span>Recognition displays</span>
+            </li>
+            <li class="flex items-start">
+              <i class="ri-check-line text-primary mt-1 mr-2"></i>
+              <span>Collaborative space branding</span>
+            </li>
+          </ul>
+          <a href="#" class="text-primary font-medium flex items-center">
+            Learn More
+            <i class="ri-arrow-right-line ml-2"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Process Timeline -->
+  <section id="process" class="py-20">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold heading-font text-gray-900 mb-2">
+          Our Process
+        </h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">
+          A strategic approach to creating impactful office branding solutions
+        </p>
+      </div>
+      <div class="max-w-4xl mx-auto">
+        <div class="timeline-item pl-12 pb-10">
+          <div
+            class="timeline-dot w-10 h-10 rounded-full border-2 border-primary bg-white flex items-center justify-center absolute left-0">
+            <span class="text-primary font-bold">1</span>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-sm">
+            <h3 class="text-xl font-bold text-gray-900 mb-3">
+              Discovery & Research
+            </h3>
+            <p class="text-gray-600 mb-4">
+              We begin by understanding your brand, culture, and objectives
+              through in-depth interviews and workspace analysis.
+            </p>
+            <ul class="text-gray-600 space-y-2">
+              <li class="flex items-start">
+                <i class="ri-check-line text-primary mt-1 mr-2"></i>
+                <span>Stakeholder interviews</span>
+              </li>
+              <li class="flex items-start">
+                <i class="ri-check-line text-primary mt-1 mr-2"></i>
+                <span>Site assessment and documentation</span>
+              </li>
+              <li class="flex items-start">
+                <i class="ri-check-line text-primary mt-1 mr-2"></i>
+                <span>Brand audit and competitive analysis</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item pl-12 pb-10">
+          <div
+            class="timeline-dot w-10 h-10 rounded-full border-2 border-primary bg-white flex items-center justify-center absolute left-0">
+            <span class="text-primary font-bold">2</span>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-sm">
+            <h3 class="text-xl font-bold text-gray-900 mb-3">
+              Concept Development
+            </h3>
+            <p class="text-gray-600 mb-4">
+              We create strategic concepts that align with your brand identity
+              and workplace objectives.
+            </p>
+            <ul class="text-gray-600 space-y-2">
+              <li class="flex items-start">
+                <i class="ri-check-line text-primary mt-1 mr-2"></i>
+                <span>Brand strategy refinement</span>
+              </li>
+              <li class="flex items-start">
+                <i class="ri-check-line text-primary mt-1 mr-2"></i>
+                <span>Conceptual design presentations</span>
+              </li>
+              <li class="flex items-start">
+                <i class="ri-check-line text-primary mt-1 mr-2"></i>
+                <span>Material and technology recommendations</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item pl-12 pb-10">
+          <div
+            class="timeline-dot w-10 h-10 rounded-full border-2 border-primary bg-white flex items-center justify-center absolute left-0">
+            <span class="text-primary font-bold">3</span>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-sm">
+            <h3 class="text-xl font-bold text-gray-900 mb-3">
+              Design Implementation
+            </h3>
+            <p class="text-gray-600 mb-4">
+              We transform concepts into detailed designs and production-ready
+              specifications.
+            </p>
+            <ul class="text-gray-600 space-y-2">
+              <li class="flex items-start">
+                <i class="ri-check-line text-primary mt-1 mr-2"></i>
+                <span>Detailed design development</span>
+              </li>
+              <li class="flex items-start">
+                <i class="ri-check-line text-primary mt-1 mr-2"></i>
+                <span>Material selection and sampling</span>
+              </li>
+              <li class="flex items-start">
+                <i class="ri-check-line text-primary mt-1 mr-2"></i>
+                <span>Production specifications and documentation</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item pl-12 pb-10">
+          <div
+            class="timeline-dot w-10 h-10 rounded-full border-2 border-primary bg-white flex items-center justify-center absolute left-0">
+            <span class="text-primary font-bold">4</span>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-sm">
+            <h3 class="text-xl font-bold text-gray-900 mb-3">
+              Quality Control
+            </h3>
+            <p class="text-gray-600 mb-4">
+              We oversee production and installation to ensure the highest
+              quality standards.
+            </p>
+            <ul class="text-gray-600 space-y-2">
+              <li class="flex items-start">
+                <i class="ri-check-line text-primary mt-1 mr-2"></i>
+                <span>Vendor coordination and management</span>
+              </li>
+              <li class="flex items-start">
+                <i class="ri-check-line text-primary mt-1 mr-2"></i>
+                <span>Production oversight and quality checks</span>
+              </li>
+              <li class="flex items-start">
+                <i class="ri-check-line text-primary mt-1 mr-2"></i>
+                <span>Installation supervision and verification</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item pl-12">
+          <div
+            class="timeline-dot w-10 h-10 rounded-full border-2 border-primary bg-white flex items-center justify-center absolute left-0">
+            <span class="text-primary font-bold">5</span>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-sm">
+            <h3 class="text-xl font-bold text-gray-900 mb-3">
+              Project Delivery
+            </h3>
+            <p class="text-gray-600 mb-4">
+              We complete the project with thorough documentation and
+              follow-up support.
+            </p>
+            <ul class="text-gray-600 space-y-2">
+              <li class="flex items-start">
+                <i class="ri-check-line text-primary mt-1 mr-2"></i>
+                <span>Final walkthrough and client approval</span>
+              </li>
+              <li class="flex items-start">
+                <i class="ri-check-line text-primary mt-1 mr-2"></i>
+                <span>Maintenance documentation and training</span>
+              </li>
+              <li class="flex items-start">
+                <i class="ri-check-line text-primary mt-1 mr-2"></i>
+                <span>Post-implementation support</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Client Success Stories -->
+  <section class="py-20 bg-gray-50">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold heading-font text-gray-900 mb-2">
+          Client Success Stories
+        </h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">
+          Hear what our clients say about their transformed workspaces
+        </p>
+      </div>
+      <div class="max-w-4xl mx-auto bg-white rounded-lg shadow-sm overflow-hidden mb-12">
+        <div class="grid grid-cols-1 md:grid-cols-2">
+          <div class="p-8">
+            <div class="flex items-center mb-6">
+              <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+                <i class="ri-user-line ri-lg text-primary"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-gray-900">Sarah Mitchell</h4>
+                <p class="text-gray-600 text-sm">CEO, Nexus Technologies</p>
+              </div>
+            </div>
+            <div class="mb-6">
+              <i class="ri-double-quotes-l text-4xl text-gray-200"></i>
+              <p class="text-gray-700 italic">
+                Mantaprabha transformed our office into a space that truly
+                represents our brand identity. The environmental graphics and
+                digital displays have not only impressed our clients but have
+                also boosted employee morale and productivity. Their strategic
+                approach to understanding our needs resulted in a workspace
+                that perfectly aligns with our company culture.
+              </p>
+            </div>
+            <div class="flex items-center">
+              <div class="flex text-yellow-400">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+              </div>
+              <span class="text-gray-600 ml-2">5.0</span>
+            </div>
+          </div>
+          <div class="bg-gray-100 flex items-center justify-center p-8">
+            <div class="grid grid-cols-2 gap-4">
+              <div>
+                <p class="text-gray-600 text-sm mb-1">Before</p>
+                <img
+                  src="https://readdy.ai/api/search-image?query=generic%20office%20space%20with%20outdated%20design%2C%20bland%20corporate%20environment%20with%20no%20branding%2C%20basic%20workspace%20with%20neutral%20colors%2C%20uninspiring%20office%20interior%2C%20professional%20photography&width=300&height=200&seq=before1&orientation=landscape"
+                  alt="Before Office Transformation" class="w-full h-32 object-cover object-top rounded" />
+              </div>
+              <div>
+                <p class="text-gray-600 text-sm mb-1">After</p>
+                <img
+                  src="https://readdy.ai/api/search-image?query=modern%20tech%20company%20office%20with%20sleek%20branding%20elements%2C%20minimalist%20design%20with%20blue%20accent%20colors%2C%20open%20workspace%20with%20branded%20wall%20graphics%2C%20professional%20corporate%20environment%2C%20high-quality%20interior%20photography&width=300&height=200&seq=after1&orientation=landscape"
+                  alt="After Office Transformation" class="w-full h-32 object-cover object-top rounded" />
+              </div>
+              <div class="col-span-2">
+                <div class="flex justify-between mb-1">
+                  <span class="text-gray-600 text-sm">Employee Satisfaction</span>
+                  <span class="text-gray-900 text-sm font-medium">+42%</span>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-2 mb-3">
+                  <div class="bg-primary h-2 rounded-full" style="width: 42%"></div>
+                </div>
+                <div class="flex justify-between mb-1">
+                  <span class="text-gray-600 text-sm">Client Impressions</span>
+                  <span class="text-gray-900 text-sm font-medium">+68%</span>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-2">
+                  <div class="bg-primary h-2 rounded-full" style="width: 68%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center">
+        <div class="flex flex-col items-center">
+          <i class="ri-microsoft-fill ri-3x text-gray-400"></i>
+          <span class="text-gray-600 mt-2">Microsoft</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <i class="ri-amazon-fill ri-3x text-gray-400"></i>
+          <span class="text-gray-600 mt-2">Amazon</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <i class="ri-netflix-fill ri-3x text-gray-400"></i>
+          <span class="text-gray-600 mt-2">Netflix</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <i class="ri-google-fill ri-3x text-gray-400"></i>
+          <span class="text-gray-600 mt-2">Google</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <i class="ri-apple-fill ri-3x text-gray-400"></i>
+          <span class="text-gray-600 mt-2">Apple</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <i class="ri-spotify-fill ri-3x text-gray-400"></i>
+          <span class="text-gray-600 mt-2">Spotify</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Section -->
+  <section id="contact" class="py-20">
+    <div class="container mx-auto px-6">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div>
+          <h2 class="text-3xl font-bold heading-font text-gray-900 mb-4">
+            Let's Create Your Office Identity
+          </h2>
+          <p class="text-gray-600 mb-6">
+            Ready to transform your workspace? Contact us to discuss your
+            office branding project.
+          </p>
+          <div class="space-y-6 mb-8">
+            <div class="flex items-start">
+              <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4 mt-1">
+                <i class="ri-map-pin-line text-primary"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-gray-900 mb-1">Visit Our Studio</h4>
+                <p class="text-gray-600">
+                  123 Design Avenue, Creative District<br />New York, NY 10001
+                </p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4 mt-1">
+                <i class="ri-mail-line text-primary"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-gray-900 mb-1">Email Us</h4>
+                <p class="text-gray-600">
+                  hello@mantaprabha.com<br />projects@mantaprabha.com
+                </p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4 mt-1">
+                <i class="ri-phone-line text-primary"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-gray-900 mb-1">Call Us</h4>
+                <p class="text-gray-600">
+                  +1 (212) 555-7890<br />+1 (212) 555-7891
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="flex space-x-4">
+            <a href="#"
+              class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center text-gray-600 hover:bg-primary hover:text-white transition-colors">
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a href="#"
+              class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center text-gray-600 hover:bg-primary hover:text-white transition-colors">
+              <i class="ri-linkedin-line"></i>
+            </a>
+            <a href="#"
+              class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center text-gray-600 hover:bg-primary hover:text-white transition-colors">
+              <i class="ri-pinterest-line"></i>
+            </a>
+            <a href="#"
+              class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center text-gray-600 hover:bg-primary hover:text-white transition-colors">
+              <i class="ri-behance-line"></i>
+            </a>
+          </div>
+        </div>
+        <div class="bg-white p-8 rounded-lg shadow-sm">
+          <h3 class="text-xl font-bold text-gray-900 mb-6">
+            Project Inquiry
+          </h3>
+          <form>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+              <div>
+                <label for="name" class="block text-gray-700 mb-2">Name</label>
+                <input type="text" id="name"
+                  class="w-full px-4 py-2 rounded border border-gray-300 focus:border-primary"
+                  placeholder="Your name" />
+              </div>
+              <div>
+                <label for="email" class="block text-gray-700 mb-2">Email</label>
+                <input type="email" id="email"
+                  class="w-full px-4 py-2 rounded border border-gray-300 focus:border-primary"
+                  placeholder="Your email" />
+              </div>
+              <div>
+                <label for="company" class="block text-gray-700 mb-2">Company</label>
+                <input type="text" id="company"
+                  class="w-full px-4 py-2 rounded border border-gray-300 focus:border-primary"
+                  placeholder="Your company" />
+              </div>
+              <div>
+                <label for="phone" class="block text-gray-700 mb-2">Phone</label>
+                <input type="text" id="phone"
+                  class="w-full px-4 py-2 rounded border border-gray-300 focus:border-primary"
+                  placeholder="Your phone" />
+              </div>
+            </div>
+            <div class="mb-6">
+              <label class="block text-gray-700 mb-2">Project Type</label>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                <div class="flex items-center">
+                  <input type="checkbox" id="interior" class="custom-checkbox" />
+                  <label for="interior" class="ml-2 text-gray-600">Office Interior Branding</label>
+                </div>
+                <div class="flex items-center">
+                  <input type="checkbox" id="identity" class="custom-checkbox" />
+                  <label for="identity" class="ml-2 text-gray-600">Corporate Identity</label>
+                </div>
+                <div class="flex items-center">
+                  <input type="checkbox" id="signage" class="custom-checkbox" />
+                  <label for="signage" class="ml-2 text-gray-600">Workplace Signage</label>
+                </div>
+                <div class="flex items-center">
+                  <input type="checkbox" id="graphics" class="custom-checkbox" />
+                  <label for="graphics" class="ml-2 text-gray-600">Environmental Graphics</label>
+                </div>
+                <div class="flex items-center">
+                  <input type="checkbox" id="digital" class="custom-checkbox" />
+                  <label for="digital" class="ml-2 text-gray-600">Digital Displays</label>
+                </div>
+                <div class="flex items-center">
+                  <input type="checkbox" id="other" class="custom-checkbox" />
+                  <label for="other" class="ml-2 text-gray-600">Other Services</label>
+                </div>
+              </div>
+            </div>
+            <div class="mb-6">
+              <label for="message" class="block text-gray-700 mb-2">Project Details</label>
+              <textarea id="message" rows="4"
+                class="w-full px-4 py-2 rounded border border-gray-300 focus:border-primary"
+                placeholder="Tell us about your project"></textarea>
+            </div>
+            <button type="submit"
+              class="bg-primary text-white px-6 py-3 !rounded-button font-medium hover:bg-primary/90 transition-colors whitespace-nowrap w-full">
+              Submit Inquiry
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white pt-16 pb-8">
+    <div class="container mx-auto px-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        <div>
+          <a href="#" class="text-2xl font-['Pacifico'] text-white mb-4 inline-block">Mantaprabha</a>
+          <p class="text-gray-400 mb-6">
+            Crafting distinctive office identities that inspire employees and
+            impress clients.
+          </p>
+          <div class="flex space-x-4">
+            <a href="#"
+              class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-gray-400 hover:bg-primary hover:text-white transition-colors">
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a href="#"
+              class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-gray-400 hover:bg-primary hover:text-white transition-colors">
+              <i class="ri-linkedin-line"></i>
+            </a>
+            <a href="#"
+              class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-gray-400 hover:bg-primary hover:text-white transition-colors">
+              <i class="ri-pinterest-line"></i>
+            </a>
+            <a href="#"
+              class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-gray-400 hover:bg-primary hover:text-white transition-colors">
+              <i class="ri-behance-line"></i>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h4 class="text-lg font-bold mb-4">Quick Links</h4>
+          <ul class="space-y-2">
+            <li>
+              <a href="#" class="text-gray-400 hover:text-white transition-colors">Home</a>
+            </li>
+            <li>
+              <a href="#services" class="text-gray-400 hover:text-white transition-colors">Services</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="text-gray-400 hover:text-white transition-colors">Portfolio</a>
+            </li>
+            <li>
+              <a href="#process" class="text-gray-400 hover:text-white transition-colors">Process</a>
+            </li>
+            <li>
+              <a href="#about" class="text-gray-400 hover:text-white transition-colors">About Us</a>
+            </li>
+            <li>
+              <a href="#contact" class="text-gray-400 hover:text-white transition-colors">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-lg font-bold mb-4">Recent Projects</h4>
+          <ul class="space-y-2">
+            <li>
+              <a href="#" class="text-gray-400 hover:text-white transition-colors">Nexus Technologies</a>
+            </li>
+            <li>
+              <a href="#" class="text-gray-400 hover:text-white transition-colors">Verdant Spaces</a>
+            </li>
+            <li>
+              <a href="#" class="text-gray-400 hover:text-white transition-colors">Meridian Financial</a>
+            </li>
+            <li>
+              <a href="#" class="text-gray-400 hover:text-white transition-colors">Atlas Creative</a>
+            </li>
+            <li>
+              <a href="#" class="text-gray-400 hover:text-white transition-colors">Horizon Healthcare</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-lg font-bold mb-4">Newsletter</h4>
+          <p class="text-gray-400 mb-4">
+            Subscribe to receive updates on our latest projects and insights.
+          </p>
+          <form class="mb-4">
+            <div class="flex">
+              <input type="email" placeholder="Your email"
+                class="flex-1 px-4 py-2 rounded-l border-none focus:outline-none text-gray-900" />
+              <button type="submit"
+                class="bg-primary text-white px-4 py-2 rounded-r !rounded-button hover:bg-primary/90 transition-colors whitespace-nowrap">
+                Subscribe
+              </button>
+            </div>
+          </form>
+          <p class="text-gray-400 text-sm">
+            By subscribing, you agree to our Privacy Policy.
+          </p>
+        </div>
+      </div>
+      <div class="border-t border-gray-800 pt-8">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <p class="text-gray-400 text-sm mb-4 md:mb-0">
+            © 2025 Mantaprabha. All rights reserved.
+          </p>
+          <div class="flex space-x-6">
+            <a href="#" class="text-gray-400 hover:text-white transition-colors text-sm">Privacy Policy</a>
+            <a href="#" class="text-gray-400 hover:text-white transition-colors text-sm">Terms of Service</a>
+            <a href="#" class="text-gray-400 hover:text-white transition-colors text-sm">Sitemap</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Portfolio Modal -->
+  <div id="portfolioModal"
+    class="portfolio-modal fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75 p-4">
+    <div class="bg-white rounded-lg max-w-5xl w-full max-h-[90vh] overflow-y-auto">
+      <div class="sticky top-0 bg-white z-10 flex justify-between items-center p-6 border-b">
+        <h3 class="text-2xl font-bold text-gray-900" id="modalTitle">
+          Project Details
+        </h3>
+        <button id="closeModal" class="w-10 h-10 flex items-center justify-center text-gray-500 hover:text-gray-900">
+          <i class="ri-close-line ri-lg"></i>
+        </button>
+      </div>
+      <div class="p-6" id="modalContent">
+        <!-- Content will be dynamically inserted here -->
+      </div>
+    </div>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+
+</html>
